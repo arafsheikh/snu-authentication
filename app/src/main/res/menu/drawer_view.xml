@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_control_center"
+            android:icon="@drawable/ic_donut_large_white_36dp"
+            android:title="@string/nav_control_center_fragment"
+            android:checked="true" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_white_36dp"
+            android:title="@string/nav_settings_activity" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_white_36dp"
+            android:title="@string/nav_help_activity" />
+    </group>
+</menu>

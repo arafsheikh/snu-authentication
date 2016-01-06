@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Statistics" >
+        <SwitchPreference
+            android:title="Provide usage data"
+            android:key="pref_advertising"
+            android:defaultValue="true"
+            android:summary="Send anonymous, non-personalized usage statistics to help improve the app" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Account" >
+        <Preference
+            android:title="Logout"
+            android:key="pref_logout"
+            android:summary="Logout from this device" />
+        <Preference
+            android:title="Clean logout"
+            android:key="pref_clean_logout"
+            android:summary="Clear all app data and logout from this device" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
